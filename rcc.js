@@ -31,8 +31,6 @@ function calculateCoordinates() {
     }
 }
 
-// Add event listener to button
 document.getElementById('calc-btn').addEventListener('click', calculateCoordinates);
 
-// Automatically calculate once when page loads
 calculateCoordinates();
